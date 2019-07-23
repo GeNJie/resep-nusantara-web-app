@@ -1,0 +1,30 @@
+.container {
+	position: relative;
+}
+.menu {
+	position: relative;
+	margin-top: 13vh;
+	animation: fade 1.5s ease;
+}
+@keyframes fade {
+	from {
+		opacity: 0;
+	} to {
+		opacity: unset;;
+	}
+}
+.search-input {
+	background-color: white !important;
+	border-radius: 100px !important;
+}
+.card-title {
+	font-weight: bolder !important;
+}
+.navbar {
+	padding-top: 4vh;
+	border: unset;
+}
+.brand-logo {
+	font-weight: bolder;
+	text-transform: uppercase;
+}

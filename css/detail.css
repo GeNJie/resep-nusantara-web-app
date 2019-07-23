@@ -1,0 +1,65 @@
+.card-image img {
+	margin-top: -2px !important;
+}
+.read-more {
+	height: 19vh;
+	transition: 1s !important;
+}
+.read-more:hover {
+	height: unset;
+}
+.less {
+	font-weight: lighter;
+	height: 100% !important;
+	overflow: hidden;
+	transition: 1s !important;
+}
+.more {
+	font-weight: bolder;
+	color: yellow;
+}
+.btn-res {
+	margin: 1.5% 0;
+	border-radius: 100px;
+	animation: fade 3.5s ease;
+}
+.display-img {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	animation: fade 1.7s ease;
+}
+@keyframes fade {
+	from {
+		opacity: 0;
+	} to {
+		opacity: unset;
+	}
+}
+.title-card {
+	position: relative;
+	z-index: 2;
+	top: 19vh;
+	font-weight: bolder;
+	margin-left: 6%;
+	color: white;
+}
+.display-info {
+	transition: 1s !important;
+	margin-top: 20vh;
+	border-radius: 10px;
+	animation: slideup 1s ease;
+}
+@keyframes slideup {
+	0% {
+		margin-top: 300vh;
+	} 100% {
+		margin-top: 20vh;
+	}
+}
+.card2-title {
+	margin: -5% 0;
+}
+.card-2 {
+	animation: fade 4.5s ease;
+}
